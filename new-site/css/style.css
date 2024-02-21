@@ -272,21 +272,24 @@ width: 100%;
     text-align: center;
   }
  .container{
+
+justify-content: center;
+  margin: 20px auto;
 display: flex;
 flex-wrap: wrap;
 align-items: center;
+gap: 40px;
+
  }
  .container > div{
 
-
-
 height:500px ;
-border-radius: 5px;
+border-radius: 10px;
 width: 360px;
 border:#000000;
 margin: 5px;
 background-color: #0d4572;
-
+border-width: thin;
  }
 
 
@@ -296,7 +299,7 @@ background-color: #0d4572;
 img{
 
 height: 200px;
-max-width:100%;
+width:100%;
 
 }
 
@@ -307,9 +310,22 @@ max-width:100%;
   width: 8em;
   border-radius: 5px;
 position: relative;
-top:30%;
-left:70%;
+top:20%;
+left:65%;
 
 
 }
+body{
+  background-color: #999;
+}
 
+.react-content{
+  display:none;
+  z-index: 1;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#react:hover .react-content{
+
+display: block;
+}
