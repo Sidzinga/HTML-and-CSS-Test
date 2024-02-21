@@ -251,9 +251,16 @@
     display: flex;
     flex-wrap: wrap;
   }
+  a{
+    color:#b3d4fc
+  }
+
+  a:active{
+
+  }
   header > ul  {
     position: fixed;
-    left: 70%;
+    left: 80%;
     float: right;
     display: inline;
     color: #b3d4fc;
@@ -316,7 +323,7 @@ left:65%;
 
 }
 body{
-  background-color: #999;
+  /* background-color: #999; */
 }
 
 .react-content{
