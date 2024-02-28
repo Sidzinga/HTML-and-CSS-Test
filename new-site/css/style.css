@@ -349,6 +349,8 @@ left:15rem;
 
 body{
   background-color: #999;
+  padding: 0px;
+  margin: 0px;
 }
 #react{
   position: relative;
