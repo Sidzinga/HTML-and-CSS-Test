@@ -1,3 +1,4 @@
-var copyRight = "&copy;  2024"
+
+var copyRight = "&copy;" + new Date().getFullYear()
 
 document.getElementById("foot-note").innerHTML = copyRight;
