@@ -316,9 +316,10 @@ background-color: #5481a5;
 
 
 table, th, td{
-  border: 3px solid #234554;
+  border: 3px solid #000000;
   border-collapse: collapse;
   padding: 5px;
+  margin: 10px;
 }
 
 
@@ -338,8 +339,8 @@ width:100%;
   width: 8em;
   border-radius: 5px;
 position: relative;
-top:4rem;
-left:15rem;
+top:3rem;
+right:-55%;
 
 
 
